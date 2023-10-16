@@ -1,0 +1,556 @@
+/* Establece el tamaño de fuente del cuerpo en 20 píxeles. */
+body {
+    font-size: 20px;
+}
+
+/* Utiliza flexbox para organizar elementos. */
+.divsPrincipal {
+    display: flex;
+    margin: -8px 0 0 -8px;
+}
+
+/* Ajusta la altura, fuente y márgenes. */
+.divsContenido {
+    height: auto;
+    font-family: "Roboto Slab", serif;
+    margin: 0 auto 0 auto;
+}
+
+/* Define altura y ancho de elementos. */
+.divContenido {
+    height: auto;
+    width: 1500px;
+}
+
+/* Establece altura, ancho y tamaño de fuente. */
+.divHeader {
+    height: 90px;
+    width: 1500px;
+    font-size: 18px;
+}
+
+/* Configura márgenes, ancho, altura y color de fondo. */
+.divMenu {
+    margin-top: -30px;
+    width: 320px;
+    height: 2580px;
+    background-color: #f5f6f7;
+}
+
+/* Ajusta márgenes, ancho, altura, fuente y color de fondo. */
+.divBuscador {
+    margin: 0;
+    width: 320px;
+    height: 90px;
+    font-family: "Roboto Slab", serif;
+    background-color: #eff1f2;
+}
+
+
+
+/* Establece el tamaño de fuente del elemento. */
+#textoHeader {
+    margin: 50px 0 0 85px; /* Define los márgenes. */
+    font-family: "Roboto Slab", serif; /* Establece la fuente del texto. */
+    color: grey; /* Define el color del texto en gris. */
+}
+
+/* Establece el estilo para la línea. */
+#lineaHeader {
+    border-bottom: 5px solid #f56a6a; /* Crea una línea inferior de color rojo (#f56a6a). */
+    width: 1370px; /* Establece el ancho del elemento. */
+    margin-top: -5px; /* Define un margen superior negativo. */
+    margin-right: 65px; /* Establece un margen derecho. */
+    margin-left: 85px; /* Establece un margen izquierdo. */
+}
+
+/* Cambia el color del texto cuando se pasa el cursor sobre el elemento. */
+#textoHeader:hover {
+    color: #f56a6a; /* Cambia el color del texto a rojo (#f56a6a) en una transición de 0.5 segundos. */
+    transition: color 0.5s; /* Agrega una animación de transición al cambio de color. */
+}
+
+/* Establece el color de texto del elemento. */
+#textoStrong {
+    color: black; /* Define el color del texto en negro. */
+}
+
+/* Cambia el color del texto cuando se pasa el cursor sobre el elemento. */
+#textoStrong:hover {
+    color: #f56a6a; /* Cambia el color del texto a rojo (#f56a6a) en una transición de 0.5 segundos. */
+    transition: color 0.5s; /* Agrega una animación de transición al cambio de color. */
+}
+
+/* Alinea y muestra elementos como una fila flexible en el extremo derecho. */
+.iconosHeader {
+    justify-content: flex-end;
+    display: flex;
+    list-style: none;
+    padding-left: 0px;
+    margin-left: -12px;
+    margin-right: 35px;
+    margin-top: -10px;
+    color: grey;
+}
+
+/* Cambia el color de los elementos al pasar el cursor sobre ellos con una transición de 0.5 segundos. */
+.iconosHeader:hover {
+    color: #f56a6a;
+    transition: color 0.5s;
+}
+
+/* Define el color, tamaño de fuente y márgenes. */
+.barras {
+    color: #f56a6a;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+/* Establece estilos de texto. */
+#mHeader {
+    text-decoration: none;
+    color: grey;
+    opacity: 70%;
+    font-weight: 700;
+    margin-top: 2px;
+}
+
+/* Cambia el color del texto en elementos con el ID 'mHeader' al pasar el cursor sobre ellos con una transición de 0.5 segundos. */
+#mHeader:hover {
+    color: #f56a6a;
+    transition: color 0.5s;
+}
+
+/* Define el ancho, tamaño de fuente, peso de fuente y fuente para elementos 'h1'. */
+h1 {
+    width: 520px;
+    font-size: 65px;
+    font-weight: 700;
+    font-family: "Roboto Slab", serif;
+}
+
+/* Establece márgenes. */
+.introduccion {
+    margin-top: 115px;
+    margin-left: 85px;
+}
+
+
+
+#textoIntro {
+    margin-top: 50px;
+    color: grey;
+    width: 520px;
+    margin-bottom: -25px;
+    line-height: 28px;
+}
+
+#imgPrin {
+    margin-left: 470px;
+    transform: scale(1.1);
+    margin-top: -370px;
+    border-radius: 10px;
+    width: 600px;
+    height: 500px;
+}
+
+.divSegundaParte {
+    margin-left: 65px;
+    flex-wrap: wrap;
+}
+
+/* Establece el color, tamaño de fuente, y márgenes. */
+.icon {
+    color: #f56a6a;
+    font-size: 60px;
+    margin-top: 160px;
+    margin-left: 65px;
+    display: flex;
+    width: 70px;
+}
+
+/* Establece el color, tamaño de fuente, y márgenes. */
+.icon2 {
+    color: #f56a6a;
+    font-size: 60px;
+    margin-top: -395px;
+    position: absolute;
+    margin-left: 690px;
+    display: flex;
+    width: 70px;
+}
+
+/* Establece el color, tamaño de fuente, y márgenes. */
+.icon3 {
+    color: #f56a6a;
+    font-size: 60px;
+    margin-left: 680px;
+    display: flex;
+    width: 70px;
+}
+
+/* Define márgenes inferiores para elementos 'h3'. */
+h3 {
+    margin-bottom: 35px;
+}
+
+
+/* Establece los márgenes superiores e izquierdos, el relleno izquierdo, el ancho y la altura. */
+.content1 {
+    margin-top: -150px;
+    margin-left: 180px;
+    padding-left: 20px;
+    width: 400px;
+    height: auto;
+}
+
+
+.content2{
+    margin-top: -475px;
+    margin-left: 830px;
+    padding-left: 20px;
+    width: 400px;
+    margin-bottom: 180px;
+    height: auto;
+}
+
+.content3{
+    margin-top: -170px;
+    margin-left: 830px;
+    padding-left: 20px;
+    width: 400px;
+    height: auto;
+    margin-bottom: -60px;
+}
+
+
+
+
+/* Margen superior, izquierdo y derecho, margen inferior, color de texto y fuente para los elementos. */
+.titulMenu {
+    padding-top: 20px;
+    margin-left: 25px;
+    margin-bottom: 40px;
+    color: #3d4449;
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 1.38889em;
+    border-bottom: solid 3px #f56a6a;
+    width: 70px;
+}
+
+/* Margen inferior, relleno inferior, margen izquierdo, color de texto, fuente, peso de fuente, tamaño de fuente y línea inferior para los elementos. */
+.titulMenu2 {
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    margin-left: 25px;
+    color: #3d4449;
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 20px;
+    border-bottom: solid 3px #f56a6a;
+    width: 210px;
+}
+
+/* Tamaño de fuente, espaciado entre letras, lista sin viñetas y márgenes para los elementos. */
+.ulMenu {
+    font-size: 0.9em;
+    letter-spacing: 0.075em;
+    list-style: none;
+    margin: 5px 0 0 -15px;
+}
+
+.submenu{
+    padding-top: 10px;
+    display: none;
+    margin-bottom: 20px;
+}
+
+.ulMenu li:hover .submenu{
+    display: block;
+    list-style: none;
+}
+
+.itemsMenu{
+    border-bottom: 1px solid grey;
+    height: auto;
+    margin-top: 10px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    width: 270px;
+    color: black;
+}
+
+
+
+
+/* Borde inferior, altura, márgenes superior e inferior, ancho y color de texto para los elementos en estado hover. */
+.itemsMenu:hover {
+    color: #f56a6a;
+    transition: color 0.5s;
+}
+
+#ultimoItemMenu{
+    padding-top: 20px;
+}
+
+/* Color de texto y transición para el último elemento en estado hover. */
+#ultimoItemMenu:hover {
+    color: #f56a6a;
+    transition: color 0.5s;
+}
+
+
+
+
+
+/* Crea un separador con una línea gris de 2px de grosor, márgenes superior e izquierdo, márgenes derecho e inferior, color de texto, altura, ancho y opacidad. */
+.separadorEnorme {
+    border-bottom: 2px solid grey;
+    margin-top: 60px;
+    margin-left: 85px;
+    margin-right: 120px;
+    color: black;
+    margin-bottom: 50px;
+    height: 90px;
+    width: auto;
+    opacity: 30%;
+}
+
+/* Crea un separador con una línea gris de 2px de grosor, márgenes superior, color de texto, márgenes inferior, altura, ancho y opacidad. */
+.separadorGrande {
+    border-bottom: 2px solid grey;
+    margin-top: 0px;
+    color: black;
+    margin-bottom: 50px;
+    height: 90px;
+    width: 270px;
+    opacity: 30%;
+}
+
+/* Crea un separador con una línea gris de 1px de grosor, altura, márgenes superior, izquierdo, y inferior, ancho y opacidad. */
+.separadorMini {
+    border-bottom: 1px solid grey;
+    height: 10px;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    width: 270px;
+    opacity: 30%;
+}
+
+/* Define el ancho, márgenes y altura, además de aplicar bordes redondeados y ocultar el desbordamiento. */
+.imgDiv {
+    width: 270px;
+    margin: 10px 0 0 25px;
+    height: 218px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+/* Define el ancho y aplica bordes redondeados. */
+.imgLateral {
+    border-radius: 10px;
+    width: 270px;
+}
+
+/* Al pasar el cursor sobre elementos con la clase 'imgLateral', aplica una transformación para aumentar el tamaño con una transición rápida. */
+.imgLateral:hover {
+    transform: scale(1.1);
+    transition: transform 0.1s;
+}
+
+/* Define márgenes, tamaño de fuente, color de texto y ancho. */
+.textoImgLateral {
+    margin: -20px 0 0 26px;
+    font-size: 15px;
+    color: grey;
+    width: 270px;
+}
+
+
+
+/* Define estilos para botones. */
+.btnMore {
+    font-family: "Roboto Slab", serif;
+    text-decoration: none;
+    margin: 25px 0px 0px 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: solid 3px #f56a6a;
+    border-radius: 5px;
+    color: #f56a6a;
+    font-size: 18px;
+}
+
+/* Define estilos para botones. */
+.btnLearnMore {
+    font-family: "Roboto Slab", serif;
+    text-decoration: none;
+    margin-top: -30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: solid 3px #f56a6a;
+    border-radius: 5px;
+    color: #f56a6a;
+    font-size: 18px;
+}
+
+/* Define márgenes, tamaño de fuente, color de texto y ancho. */
+.textInfo {
+    margin: 25px 0 -10px 26px;
+    font-size: 15px;
+    color: grey;
+    width: 260px;
+}
+
+/* Define bordes inferiores, altura, márgenes superior e inferior y ancho. */
+.itemsContact {
+    border-bottom: 1px solid grey;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    width: 270px;
+    color: grey;
+}
+
+
+
+.iconos{
+    margin-right: 12px;
+    color: #f56a6a;
+}
+
+.infoLateral{
+    margin-left: 25px;
+    color:grey;
+}
+
+
+
+
+
+
+.linkBlack:hover{
+    color: #f56a6a;
+    transition: color 0.3s;
+}
+
+.linkBlack:visited:hover{
+    color: #f56a6a;
+    transition: color 0.3s;
+}
+
+
+.linkBlack:visited {
+    color:black;
+}
+
+
+
+
+.linkGrey:hover{
+    color: #f56a6a;
+    transition: color 0.2s;
+}
+
+.linkGrey:visited:hover{
+    color: #f56a6a;
+    transition: color 0.2s;
+}
+
+.linkGrey:visited{
+    color:grey;
+
+}
+
+
+
+
+
+
+
+/* Establece estilos para los elementos de entrada de tipo 'text' con la clase 'buscador'. */
+.buscador[type=text] {
+    margin: 25px 0 0 25px; /* Márgenes superiores (25px), derecho (0), inferior (0) e izquierdo (25px). */
+    width: 240px; /* Ancho del campo de entrada de 240 píxeles. */
+    height: 35px; /* Altura del campo de entrada de 35 píxeles. */
+    border-radius: 4px; /* Aplica bordes redondeados de 4 píxeles. */
+    border: 1px solid grey; /* Borde sólido de 1 píxel de grosor de color gris. */
+    padding-left: 20px; /* Relleno izquierdo de 20 píxeles. */
+}
+
+/* Establece estilos para los elementos de entrada de tipo 'text' con la clase 'buscador' cuando están enfocados (focus). */
+.buscador[type=text]:focus {
+    border: 2px solid #f56a6a; /* Borde sólido de 2 píxeles de grosor de color rojo (#f56a6a) cuando el campo está enfocado. */
+    outline: none; /* Elimina el contorno predeterminado. */
+}
+
+
+
+
+.divTerceraParte{
+    margin-top: 65px;
+    margin-left: 65px;
+    margin-bottom: 20px;
+
+}
+
+.divTerceraParte .fichas{
+    margin-left: 100px;
+}
+
+.fichas{
+    margin-left: 20px;
+    display: inline-flex;
+    flex-wrap: wrap;
+
+}
+
+.ficha{
+    margin-right: -3px;
+
+    border-right: 1px solid rgba(0, 0, 0, 0.301);
+    width:340px;
+    margin-left: 3px;
+    padding-bottom: 25px;
+
+}
+
+.ficha2{
+    margin-right: -3px;
+    border-top: 1px solid rgba(0, 0, 0, 0.301);
+    border-right: 1px solid rgba(0, 0, 0, 0.301);
+    width:340px;
+    margin-left: 3px;
+    padding-bottom: 25px;
+
+
+}
+
+.ficha2 img{
+    margin-top: 10px;
+}
+
+.ficha h2{
+    margin-top: -5px;
+    margin-bottom: 40px;
+    margin-left: 25px;
+    color: black;
+    opacity: 100%;
+}
+
+.ficha2 h2{
+    margin-top: -5px;
+    margin-bottom: 40px;
+    margin-left: 25px;
+    opacity: 100%;
+}
+
